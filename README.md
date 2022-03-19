@@ -7,3 +7,5 @@ This folder holds the contents of the IRS practice module from Jan 2022 to June 
 
 In this module, we will be using rules-based systems and fuzzy inference systems. 
 We are still considering if we should also use neuro-fuzzy systems.
+
+I have completed the prototype code of a forward inferencing Crisp Rule Engine and will upload it here soon.
