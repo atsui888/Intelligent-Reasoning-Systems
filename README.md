@@ -10,6 +10,6 @@ Team:
 - Richard Chai
 
 In this module, we will be using a forward chaining rule engine and combining it with a fuzzy inference systems. 
-We are still considering if we should also use neuro-fuzzy systems.
 
-I have finished coding the forward chaining Crisp Rule Inference Engine and will upload it here soon. Now, I'm evaluating fuzzy inference open-source packages and evaluating if I should use those with my custom coded inference engine or just code a fuzzy engine from scratch. The classic make-or-buy decision!
+- 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
+- 02 CRISP Forward Chaining Rules Engine_Intelligent Financial Butler.ipynb
