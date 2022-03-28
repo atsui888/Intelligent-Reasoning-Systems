@@ -18,3 +18,6 @@ Demo
 Application
   - 03 App Investor Profile.py
   - 04 App Simple_CRISP_Rule_Engine.py
+
+The online app is still WIP but can be viewed here: https://bit.ly/3iZ1dXv
+
