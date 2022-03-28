@@ -6,7 +6,7 @@ National University of Singapore (Institute of System Science)<br>
 This folder holds the contents of the IRS practice module from Jan 2022 to June 2022, which is part of the requirements to attaining the Masters of Technology.
 
 Team: 
-- Hong Wei
+- Koh Hong Wei
 - Richard Chai
 
 In this module, we will be using rules-based systems and fuzzy inference systems. 
