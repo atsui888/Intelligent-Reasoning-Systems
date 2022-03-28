@@ -11,5 +11,10 @@ Team:
 
 In this module, we will be using a forward chaining rule engine and combining it with a fuzzy inference systems. 
 
-- 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
-- 02 CRISP Forward Chaining Rules Engine_Intelligent Financial Butler.ipynb
+Demo
+  - 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
+  - 02 CRISP Forward Chaining Rules Engine_Intelligent Financial Butler.ipynb
+
+Application
+  - 03 App Investor Profile.py
+  - 04 App Simple_CRISP_Rule_Engine.py
