@@ -1,3 +1,6 @@
+# Richard Chai: https://www.linkedin.com/in/richardchai/
+
+
 import pandas as pd
 import math
 import numpy as np
