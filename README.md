@@ -28,6 +28,8 @@ Source: https://en.wikipedia.org/wiki/Forward_chaining
 Demo
   - 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
   - 02 CRISP Forward Chaining Rules Engine_Intelligent Financial Butler.ipynb
+  - 03 Recommendation Engine: Collaborative Filtering Demo
+  - 04 Recommendation Engine: Engine code
 
 Application
   - 03 App Investor Profile.py
