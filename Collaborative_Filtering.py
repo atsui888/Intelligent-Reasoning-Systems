@@ -4,6 +4,7 @@
 import pandas as pd
 import math
 import numpy as np
+import math
 
 
 class Euclidian_Similarity():
@@ -78,7 +79,9 @@ class Euclidian_Similarity():
             display(df)
             
         df.dropna(axis=0, inplace=True)                   
-        df['temp'] = (df.iloc[:,0] - df.iloc[:,1])**2                
+        df['temp'] = (df.iloc[:,0] - df.iloc[:,1])**2   
+
+
         pairwise_eu_dist = (df.temp.sum())**0.5        
         
         # convert to similarity
@@ -181,6 +184,34 @@ class Recommendations():
             display('NOT watched uses "null" columns', null_cols)
             print('These items have not been watched:\n',col_idx,'\n')        
         
+
+        # delete after test - begin
+        # if obs has not watched or possess a single feature, the row_idx will be an empty list
+        # this will cause an error, i.e. no row at all in row_idx
+        # hence, we arbitraturally copy one item from col_idx and put it in row_idx
+        # and treat it as watched. In the longer term, need to figure out an optimal way
+        # to handle this situation or algorithm modification
+
+        # if len(row_idx)<1:
+        #     row_idx.append(col_idx[0])
+
+        # print('display self._df_sim_scores')
+        # display(self._df_sim_scores)
+        # print('row_idx is', row_idx)
+        # print('col_idx is', col_idx)
+        # print('modify if row_idx is empty')
+        # rchai: 2022_04_17_1023, the next 3 lines, KIV first, no impact I can see
+        # if len(row_idx)<1:
+        #     row_idx.append(col_idx[0])
+        #     print('modified row_idx is: ', row_idx)
+        # print('display self._rec_matrix')
+        # display(self._rec_matrix)
+        # print('showing results of: self._df_sim_scores.loc[row_idx,col_idx]')
+        # display(self._df_sim_scores.loc[row_idx,col_idx])
+        # print('AFTER my display code is done')
+
+        # delete after test - end
+
         self._rec_matrix = self._df_sim_scores.loc[row_idx,col_idx]
 
         if self._verbose>1:
@@ -237,8 +268,22 @@ class Recommendations():
                     print('We will now calculate the recommendation scores with this matrix:')
                     display(selected_rows.loc[:,['sim_weights',lbl]])
                 total_weighted_sim = (selected_rows['sim_weights'] * selected_rows[lbl]).sum()
-                sum_of_used_sim_weights = selected_rows.loc[:,'sim_weights'].sum()           
-                rec_score = total_weighted_sim / sum_of_used_sim_weights
+                sum_of_used_sim_weights = selected_rows.loc[:,'sim_weights'].sum() 
+
+                # rchai: 2022_04_16_2052 -- start
+                total_weighted_sim = np.nan_to_num(total_weighted_sim)
+                sum_of_used_sim_weights = np.nan_to_num(sum_of_used_sim_weights)
+                if sum_of_used_sim_weights < 0.0001:
+                    rec_score=0
+                else:
+                    rec_score = np.nan_to_num(total_weighted_sim/ sum_of_used_sim_weights)
+                    
+                # rchai: 2022_04_16_2052 -- end 
+
+                # original - start
+                #rec_score = total_weighted_sim / sum_of_used_sim_weights
+                # original - end
+
                 df_rec_scores.loc[[lbl],'recommendation_score'] = rec_score  
                 
         elif self._cf_type == 'item':
@@ -248,7 +293,15 @@ class Recommendations():
                                       self._rec_matrix.loc[:, lbl] ).sum()
                 sum_of_lbl_sim = self._rec_matrix.loc[:,lbl].sum()
 
-                rec_score = total_weighted_sim / sum_of_lbl_sim
+
+                total_weighted_sim = np.nan_to_num(total_weighted_sim)
+                sum_of_lbl_sim = np.nan_to_num(sum_of_lbl_sim) 
+                if sum_of_lbl_sim < 0.0001:
+                    rec_score=0
+                else:
+                    rec_score = np.nan_to_num(total_weighted_sim/ sum_of_lbl_sim)   
+                    # rec_score = total_weighted_sim / sum_of_lbl_sim
+
                 df_rec_scores.loc[[lbl],'recommendation_score'] = rec_score    
             
         if self._verbose>0:
