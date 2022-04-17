@@ -15,7 +15,7 @@ Team:
 - Koh Hong Wei
 - Richard Chai
 
-In this module, we will be using a forward chaining rule engine and combining it with a fuzzy inference systems. 
+In this module, we will be implementing a forward chaining rule engine, a fuzzy inference systems, collaborative filtering recommendation engine (user-based and item-base), and also ARIMA forecasting.
 
 Forward chaining (or forward reasoning) is one of the two main methods of reasoning when using an inference engine and can be described logically as repeated application of modus ponens. Forward chaining is a popular implementation strategy for expert systems, business, and production rule systems. Forward chaining starts with the available data and uses inference rules to extract more data (from an end user, for example) until a goal is reached. The name "forward chaining" comes from the fact that the inference engine starts with the data and reasons its way to the answer. 
 
