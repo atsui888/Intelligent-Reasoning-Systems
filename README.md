@@ -11,9 +11,12 @@ Project Name:
 Project Objective
 - To empower users with Personal Finance Advice by recommending a personalized Investment Portfolio Allocation.
 
-Team: 
+Team
 - Koh Hong Wei
 - Richard Chai
+-   https://www.linkedin.com/in/richardchai/
+-   atsuishisen@gmail.com
+ 
 
 In this module, we will be implementing a forward chaining rule engine, a fuzzy inference systems (maybe), collaborative filtering recommendation engine (user-based and item-base), and also ARIMA forecasting.
 
