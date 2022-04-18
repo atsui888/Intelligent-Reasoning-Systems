@@ -1,5 +1,5 @@
-# IRS
-Intelligent Reasoning Systems (IRS) <br>
+# Project: Intelligent Financial Butler
+for Intelligent Reasoning Systems (IRS) Module <br>
 Master of Technology in Intelligent Systems<br>
 National University of Singapore (Institute of System Science)<br>
 
