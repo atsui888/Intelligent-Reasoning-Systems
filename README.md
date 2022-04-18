@@ -17,6 +17,7 @@ Team
 -   https://www.linkedin.com/in/richardchai/
 -   atsuishisen@gmail.com
  
+ 
 
 In this module, we will be implementing a forward chaining rule engine, a fuzzy inference systems (maybe), collaborative filtering recommendation engine (user-based and item-base), and also ARIMA forecasting.
 
