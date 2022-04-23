@@ -28,6 +28,8 @@ Because the data determines which rules are selected and used, this method is ca
 One of the advantages of forward-chaining over backward-chaining is that the reception of new data can trigger new inferences, which makes the engine better suited to dynamic situations in which conditions are likely to change.
 Source: https://en.wikipedia.org/wiki/Forward_chaining
 
+![IFB_Hybrid Reasoning System_flow_1920](https://user-images.githubusercontent.com/18540586/164889798-10a402c8-78a1-4134-899f-68c1b2c2c504.png)
+
 
 Demo
   - 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
