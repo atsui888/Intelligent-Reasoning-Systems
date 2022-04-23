@@ -19,7 +19,7 @@ Team
  
  
 
-In this module, we will be implementing a forward chaining rule engine, a fuzzy inference systems (maybe), collaborative filtering recommendation engine (user-based and item-base), and also ARIMA forecasting.
+In this module, we will be implementing a forward chaining rule engine, a managed fund recommendation engine and also a stock forecasting module.
 
 Forward chaining (or forward reasoning) is one of the two main methods of reasoning when using an inference engine and can be described logically as repeated application of modus ponens. Forward chaining is a popular implementation strategy for expert systems, business, and production rule systems. Forward chaining starts with the available data and uses inference rules to extract more data (from an end user, for example) until a goal is reached. The name "forward chaining" comes from the fact that the inference engine starts with the data and reasons its way to the answer. 
 
@@ -30,16 +30,8 @@ Source: https://en.wikipedia.org/wiki/Forward_chaining
 
 ![IFB_Hybrid Reasoning System_flow_1920](https://user-images.githubusercontent.com/18540586/164889798-10a402c8-78a1-4134-899f-68c1b2c2c504.png)
 
+In the fund recommendation module, we take two approaches, user-similarity and item-similarity. This allows us to make recommendations based on how similar each user is to others and in situations where even if we have insufficient information about the user, we can still provide recommendations as long as the user has clicked on an item in the app or if we placed a default item in the user's screen.
 
-Demo
-  - 01 CRISP Forward Chaining Rules Engine_Demo.ipynb
-  - 02 CRISP Forward Chaining Rules Engine_Intelligent Financial Butler.ipynb
-  - 03 Recommendation Engine: Collaborative Filtering Demo
-  - 04 Recommendation Engine: Engine code
-
-Application
-  - 03 App Investor Profile.py
-  - 04 App Simple_CRISP_Rule_Engine.py
 
 The proof-of-concept app can be viewed here: https://bit.ly/3jQ0Df0
 
