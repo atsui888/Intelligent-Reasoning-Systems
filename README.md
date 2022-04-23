@@ -13,8 +13,9 @@ Project Objective
 
 Team
 - Richard Chai
--   https://www.linkedin.com/in/richardchai/
--   atsuishisen@gmail.com
+ -   https://www.linkedin.com/in/richardchai/
+ -   atsuishisen@gmail.com
+
 - Koh Hong Wei
  
  
