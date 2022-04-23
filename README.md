@@ -1,4 +1,4 @@
-# Project: Intelligent Financial Butler
+# Project: Personal Financial Butler
 for Intelligent Reasoning Systems (IRS) Module <br>
 Master of Technology in Intelligent Systems<br>
 National University of Singapore (Institute of System Science)<br>
@@ -39,5 +39,5 @@ Application
   - 03 App Investor Profile.py
   - 04 App Simple_CRISP_Rule_Engine.py
 
-The online app is still WIP but can be viewed here: https://bit.ly/3jQ0Df0
+The proof-of-concept app can be viewed here: https://bit.ly/3jQ0Df0
 
