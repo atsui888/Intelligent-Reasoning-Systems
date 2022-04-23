@@ -30,7 +30,9 @@ Source: https://en.wikipedia.org/wiki/Forward_chaining
 
 ![IFB_Hybrid Reasoning System_flow_1920](https://user-images.githubusercontent.com/18540586/164889798-10a402c8-78a1-4134-899f-68c1b2c2c504.png)
 
-In the fund recommendation module, we take two approaches, user-similarity and item-similarity. This allows us to make recommendations based on how similar each user is to others and in situations where even if we have insufficient information about the user, we can still provide recommendations as long as the user has clicked on an item in the app or if we placed a default item in the user's screen. The user-based similarity functionality takes into account each user's risk appetite, investment goals and stock/bond allocation. The Stock forecasting module enables us to predict future stock prices with a certain confidence level which we use to make recommendations to the user. In a subsequent enhancement, a portfolio optimisation module is planned for, which uses Genetic Algorithm to create a optimised stock and bond portfolio for the user based on the above factors and in addition, the user's budget.
+In the fund recommendation module, we take two approaches, user-similarity and item-similarity. This allows us to make recommendations based on how similar each user is to others and in situations where even if we have insufficient information about the user, we can still provide recommendations as long as the user has clicked on an item in the app or if we placed a default item in the user's screen. The user-based similarity functionality takes into account each user's risk appetite, investment goals and stock/bond allocation. 
+
+The Stock forecasting module enables us to predict future stock prices with a certain confidence level which we use to make recommendations to the user. In a subsequent enhancement, a portfolio optimisation module is planned for, which uses Genetic Algorithm to create a optimised stock and bond portfolio for the user based on the above factors and in addition, the user's budget.
 
 
 The proof-of-concept app can be viewed here: https://bit.ly/3jQ0Df0
