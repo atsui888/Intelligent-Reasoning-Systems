@@ -1,0 +1,19 @@
+A. Set up your Python environment
+=================================
+Using Conda virtual environment
+1. conda create --name ISS_IRS_PFB --file requirements.txt
+
+
+
+B. Executing the App 'Personal Financial Butler' locally
+======================================================
+1. go to "https://github.com/atsui888/Intelligent-Reasoning-Systems"
+2. Clone or download the files from github
+3. Navigate your way to the folder "Code"
+(if you chose the download zip file option, do extract the files first)
+4. Activate your python virtual environment which you have set up earlier
+5. Run this command 'anvil-app-server --app ISS_IRS'
+6. Open your web browser and key in "http://localhost:3030/" in the address bar.
+7. You should see the first screen of the 'Personal Financial Butler'. 
+8. Have Fun!
+
