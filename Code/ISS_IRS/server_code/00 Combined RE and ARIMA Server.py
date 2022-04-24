@@ -18,7 +18,7 @@ import statsmodels.api as sm
 import yfinance as yf
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
-from zCreds import creds
+#from zCreds import creds
 import anvil.server
 #anvil.server.connect(creds['anvil'])
 import numpy as np
