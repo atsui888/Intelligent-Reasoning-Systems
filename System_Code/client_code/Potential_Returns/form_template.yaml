@@ -1,0 +1,235 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"DNUZNI":40,"QSSCOY":20,"VWMFFA":15,"SSDLRX":16,"PCEWUS":20,"JOKPPW":50,"HQKONR":30,"OYXRPE":35,"DBWUVJ":15,"EYFDIN":35,"OAEHSG":15,"FFAJTY":17,"YDJIKF":13,"GQRDWP":15,"FGHMGG":5,"WGYCFV":55,"PWXXLP":5,"QOOXVC":55}',
+    spacing_below: small, background: ''}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: This is a Proof-of-Concept demo as part of the requirements for a Masters of Technology in Intelligent Systems at NUS-ISS. We are not liable if you rely on this app or the data in any way. Use at your own risk.,
+      font_size: 10, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+      italic: true, background: '', bold: false, underline: false, icon: ''}
+    name: label_10
+    layout_properties: {grid_position: 'FRLDZT,HPHHUL'}
+  - type: ColumnPanel
+    properties: {col_widths: '{}'}
+    name: column_panel_1
+    layout_properties: {grid_position: 'RPXANH,VWGXHN'}
+    components:
+    - type: RichText
+      properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
+        foreground: '', visible: true, font_size: null, content: '### Portfolio: 5
+          Years Projection ', font: '', spacing_above: small, spacing_below: small,
+        data: null, background: '', format: markdown}
+      name: rich_text_1
+      layout_properties: {grid_position: 'BSXUZC,OQIAFB'}
+  - type: Label
+    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Recommended Portfolio Allocation:', font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_1
+    layout_properties: {grid_position: 'RDWBKC,DNUZNI'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: true, underline: false,
+      icon: ''}
+    name: lbl_portfolio_allocation
+    layout_properties: {grid_position: 'RDWBKC,QSSCOY'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_4
+    layout_properties: {grid_position: 'RDWBKC,PCEWUS'}
+  - type: Spacer
+    properties: {height: 5}
+    name: spacer_7
+    layout_properties: {grid_position: 'BRLGSJ,CMKWIY'}
+  - type: Label
+    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Projected Portfolio Position, font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'QMFQTN,HQKONR'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: true, underline: false,
+      icon: ''}
+    name: lbl_portfolio_position
+    layout_properties: {grid_position: 'QMFQTN,MHZLUJ'}
+  - type: Spacer
+    properties: {height: 17}
+    name: spacer_6
+    layout_properties: {grid_position: 'JHTSNV,CNJMHA'}
+  - type: Label
+    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Consisting of:', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'DVRJIV,MGCRHS'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: (a) Recommended Bond Fund, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'ABKHUT,ECBDQE'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_3
+    layout_properties: {grid_position: 'FACUJX,FGHMGG'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: true, underline: false,
+      icon: ''}
+    name: lbl_bond_funds
+    layout_properties: {grid_position: 'FACUJX,WGYCFV'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_9
+    layout_properties: {grid_position: 'FFGQGS,PWXXLP'}
+  - type: Label
+    properties: {}
+    name: lbl_bond_funds_discarded
+    layout_properties: {grid_position: 'FFGQGS,QOOXVC'}
+  - type: Spacer
+    properties: {height: 6}
+    name: spacer_8
+    layout_properties: {grid_position: 'REIRZX,OKWVCM'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: (b) Stock, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: 'IBRWJW,RGIXPK'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Ticker, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_5
+    layout_properties: {grid_position: 'QHNASR,OAEHSG'}
+  - type: DropDown
+    properties:
+      role: null
+      align: full
+      tooltip: ''
+      placeholder: ''
+      border: ''
+      enabled: true
+      foreground: ''
+      items: [AAPL, MSFT, ORCL, PYPL, TSLA]
+      visible: true
+      font_size: null
+      font: ''
+      spacing_above: small
+      spacing_below: small
+      italic: false
+      background: ''
+      bold: true
+      underline: false
+      include_placeholder: false
+    name: dd_stock_ticker
+    layout_properties: {grid_position: 'QHNASR,FFAJTY'}
+  - type: Label
+    properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+      visible: true, text: Expected Returns, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_6
+    layout_properties: {grid_position: 'QHNASR,YDJIKF'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '%', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: true, underline: false,
+      icon: ''}
+    name: lbl_stk_returns
+    layout_properties: {grid_position: 'QHNASR,GQRDWP'}
+  - type: Button
+    properties: {role: primary-color, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Calc and view stock chart, font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: btn_get_stk_forecast
+    layout_properties: {grid_position: 'OMUGYP,OYXRPE'}
+    event_bindings: {click: btn_get_stk_forecast_click}
+  - type: Button
+    properties: {role: primary-color, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Back, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: back_to_investor_profile
+    layout_properties: {grid_position: 'OMUGYP,DBWUVJ'}
+    event_bindings: {click: back_to_investor_profile_click}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_5
+    layout_properties: {grid_position: 'OMUGYP,EYFDIN'}
+  - type: ColumnPanel
+    properties: {col_widths: '{}'}
+    name: column_panel_2
+    layout_properties: {grid_position: 'IGQFFK,JOKPPW'}
+    components:
+    - type: RichText
+      properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
+        foreground: '', visible: false, font_size: null, content: '#### Share Price
+          Projection', font: '', spacing_above: small, spacing_below: small, data: null,
+        background: '', format: markdown}
+      name: rich_text_2
+      layout_properties: {grid_position: 'WSHKLC,JSUKZB'}
+      components:
+      - type: Plot
+        properties: {height: 361}
+        name: plot_1
+        layout_properties: {}
+      - type: ColumnPanel
+        properties: {col_widths: '{}'}
+        name: column_panel_3
+        layout_properties: {}
+        components: []
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: This is a Proof-of-Concept demo as part of the requirements for a Masters of Technology in Intelligent Systems at NUS-ISS. We are not liable if you rely on this app or the data in any way. Use at your own risk.,
+      font_size: 10, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+      italic: true, background: '', bold: false, underline: false, icon: ''}
+    name: label_9
+    layout_properties: {grid_position: 'DFZFEP,GJNIAY'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_1
+    layout_properties: {grid_position: 'RKCCXN,VWMFFA'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_2
+    layout_properties: {grid_position: 'RKCCXN,SSDLRX'}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+  components:
+  - type: Link
+    properties: {role: text, url: 'https://github.com/atsui888/Intelligent-Reasoning-Systems',
+      align: left, tooltip: '', border: '', foreground: '', visible: true, text: github link,
+      font_size: null, wrap_on: mobile, font: '', col_spacing: medium, spacing_above: small,
+      icon_align: left, col_widths: '', spacing_below: small, italic: false, background: '',
+      bold: false, underline: false, icon: ''}
+    name: link_1
+    layout_properties: {}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: Personal Financial Butler, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_8
+  layout_properties: {slot: title}
