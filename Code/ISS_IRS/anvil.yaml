@@ -1,0 +1,76 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: true}
+- source: /runtime/services/anvil/email.yml
+  client_config: {}
+  server_config: {test_mode: true}
+startup: {type: form, module: Investor_Profile}
+package_name: ISS_IRS
+allow_embedding: false
+name: ISS IRS
+runtime_options: {version: 2, client_version: '3', server_version: python3-full}
+metadata: {description: ISS IRS, logo_img: 'asset:Atsui888 tA.png'}
+startup_form: Investor_Profile
+db_schema:
+  iss_irs:
+    title: iss_irs
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200}
+      type: string
+    - name: email
+      admin_ui: {width: 200}
+      type: string
+    - name: user_remarks
+      admin_ui: {width: 200}
+      type: string
+    - name: created
+      admin_ui: {width: 200}
+      type: datetime
+  financial_butler_user:
+    title: financial_butler_user
+    client: search
+    server: full
+    columns:
+    - name: user_id
+      admin_ui: {width: 200}
+      type: string
+    - name: investment_return
+      admin_ui: {width: 200}
+      type: number
+    - name: fund_chosen
+      admin_ui: {width: 200}
+      type: string
+    - name: risk_appetite
+      admin_ui: {width: 200}
+      type: number
+    - name: user_satisfaction
+      admin_ui: {width: 200}
+      type: number
+    - name: investment_objective
+      admin_ui: {width: 200}
+      type: number
+    - name: bonds_alloc
+      admin_ui: {width: 200}
+      type: number
+    - name: fund_id
+      admin_ui: {width: 200}
+      type: string
+    - name: equities_alloc
+      admin_ui: {width: 200}
+      type: number
+  lu_fund:
+    title: lu_fund
+    client: search
+    server: full
+    columns:
+    - name: fund_id
+      admin_ui: {width: 200}
+      type: string
+    - name: fund_chosen
+      admin_ui: {width: 200}
+      type: string
+renamed: true
