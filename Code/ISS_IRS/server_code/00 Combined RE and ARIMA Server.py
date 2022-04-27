@@ -1,3 +1,5 @@
+# Software Developer: Richard Chai: https://www.linkedin.com/in/richardchai/
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -18,9 +20,9 @@ import statsmodels.api as sm
 import yfinance as yf
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
-#from zCreds import creds
+from zCreds import creds
 import anvil.server
-#anvil.server.connect(creds['anvil'])
+anvil.server.connect(creds['anvil'])
 import numpy as np
 from Collaborative_Filtering import Euclidian_Similarity, Recommendations
 from pandas.tseries.offsets import BDay
@@ -496,5 +498,5 @@ calc_item_based_eu_sim()
 
 
 # # Online Server, comment out if doing off-line test
-#anvil.server.wait_forever()
+anvil.server.wait_forever()
 
