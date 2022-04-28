@@ -1,6 +1,6 @@
 # Project: Personal Financial Butler
 for Intelligent Reasoning Systems (IRS) Module <br>
-Master of Technology in Intelligent Systems<br>
+Master of Technology in Artificial Intelligence<br>
 National University of Singapore (Institute of System Science)<br>
 
 This folder holds the contents of the IRS practice module from Jan 2022 to June 2022, which is part of the requirements to attaining the Masters of Technology.
