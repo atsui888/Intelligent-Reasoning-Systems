@@ -1,0 +1,9 @@
+Group Name: Team RH
+Project Title: ISA Personal Finance Butler
+
+Members:
+Richard Chai Cheng Hee: S****946Z
+Koh Hong Wei: SXXXX301E
+
+Weblink to project repository:
+https://github.com/atsui888/Intelligent-Reasoning-Systems
