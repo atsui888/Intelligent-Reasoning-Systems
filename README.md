@@ -34,6 +34,7 @@ In the fund recommendation module, we take two approaches, user-similarity and i
 The Stock forecasting module enables us to predict future stock prices with a certain confidence level which we use to make recommendations to the user. In a subsequent enhancement, a portfolio optimisation module is planned for, which uses Genetic Algorithm to create a optimised stock and bond portfolio for the user based on the above factors and in addition, the user's budget.
 
 
-![personal_financial_butler](https://user-images.githubusercontent.com/18540586/197692160-7e8c08f7-2356-4b11-8080-28de0ed214b5.png)
+![personal_financial_butler](https://user-images.githubusercontent.com/18540586/197692552-89e32335-b9fc-4f1b-b05c-8c9c35e40230.png)
+
 The proof-of-concept app can be viewed here: https://bit.ly/3jQ0Df0
 
