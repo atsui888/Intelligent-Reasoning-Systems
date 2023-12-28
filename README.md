@@ -1,6 +1,5 @@
 # Project: Personal Financial Butler
-for Intelligent Reasoning Systems (IRS) Module <br>
-Master of Technology in Artificial Intelligence<br>
+for Certificate in Intelligent Reasoning Systems (IRS) Module <br>
 National University of Singapore (Institute of System Science)<br>
 (Max Time Allocated for project: 10 days)<br>
 
