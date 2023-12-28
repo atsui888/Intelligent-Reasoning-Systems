@@ -12,9 +12,7 @@ Project Objective
 - To empower users with Personal Finance Advice by recommending a personalized Investment Portfolio Allocation.
 
 Team
-- Richard Chai, https://www.linkedin.com/in/richardchai/ , atsuishisen@gmail.com
-
-- Koh Hong Wei
+- Richard Chai, Koh Hong Wei
  
  
 
